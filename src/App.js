@@ -1,7 +1,10 @@
+import React from 'react';
+import UserTable from '../src/components/UserTable';
+
 function App() {
   return (
-    <div>
-      
+    <div className="App">
+      <UserTable />
     </div>
   );
 }
